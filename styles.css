@@ -83,7 +83,7 @@ body{
 .section-banner h3{
     background-color: #fff;
     color: #469165;
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -301,10 +301,17 @@ body{
 #main-footer .footer-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 
 .footer-section{
     padding-bottom: 40px ;
+}
+
+#main-footer .footer-section .footer-logo img{
+    width: 120px;
+    margin-top: 20px;
 }
 
 .footer-section .socile p{
