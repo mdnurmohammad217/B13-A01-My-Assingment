@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+    background-color: #FBFBFB;
+}
+
+#main-header{
+    max-width: 1600px;
+    background-color: rgb(255, 222, 222);
+    margin: 0 auto;
+    padding: 16px 120px;
+    
+}
+
+#main-header .header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.header-section .logo img{
+    max-width: 100px;
+    
+    
+}
+
+.header-section li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-section li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-section .btn{
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header-section .btn:hover{
+    background-color: #205a39;
+    cursor: pointer;
+    
+}
+
+#banner-section{
+    max-width: 1600px;
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 16px 120px;
+    
+}
+
+#banner-section .section-banner .all-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    /* padding: 150px 0; */
+}
+
+.section-banner .all-section{
+    padding: 50px 0;
+}
+
+.section-banner h3{
+    background-color: #fff;
+    color: #469165;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.section-banner h1{
+    /* display: inline; */
+    color: #fff;
+    font-size: 72px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+.section-banner h1 span{
+    color: #30B868;
+    
+}
+
+.section-banner .banner-dual-bottom{
+    display: flex;
+    gap: 10px;
+}
+
+.section-banner .all-section p{
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+}
+
+.section-banner .all-section .btn{
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.section-banner .all-section .extra-design{
+    background-color: rgba(0, 174, 255, 0);
+    border: 1px solid #fff;
+    
+
+}
+.section-banner .all-section .btn:hover{
+    background-color: #205a39;
+    cursor: pointer;
+}
+
+
