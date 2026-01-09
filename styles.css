@@ -188,7 +188,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 120px;
+    padding: 50px 120px;
     
 }
 
@@ -237,3 +237,48 @@ body{
     color: #717171;
     line-height: 25px;
 }
+
+
+#early-secton{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 120px;
+    
+  
+}
+
+#early-secton .early-card{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+.early-card h2{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.early-card p{
+    font-size: 16px;
+    color: #717171;
+    /* margin-top: -8px; */
+}
+
+
+.early-card button{
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.early-card button:hover{
+    padding: 12px 16px;
+    background-color: #2a6041;
+    cursor: pointer;
+}
+
+
