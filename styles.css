@@ -160,16 +160,25 @@ body{
 }
 
 .card-section .card{
-    width: 300px;
-    min-height: 300px;
+    width: 400px;
     background-color: #ffffff;
-    padding: 24px;
+    padding: 20px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 5px 10px rgba(206, 206, 206, 0.476);
+}
+
+.card-section .card h2{
+    font-size: 22px; 
+    margin-bottom: -2px;
+}
+
+.card-section .card p{
+    font-size: 14px;
+    color: #717171;
 }
 
 .card-section .card .image{
@@ -189,6 +198,7 @@ body{
     justify-content: space-between;
     gap: 40px;
     padding: 50px 120px;
+    margin: 0 auto;
     
 }
 
@@ -281,4 +291,42 @@ body{
     cursor: pointer;
 }
 
+#main-footer{
+    max-width: 1600px;
+    background-color: #001931;
+    padding: 120px 120px 20px;
+    margin: 0 auto;
+}
+
+#main-footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section{
+    padding-bottom: 40px ;
+}
+
+.footer-section .socile p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+
+.footer-section .socile .socile-icon{
+    color: #fff;
+    margin-top: -6px;
+}
+
+
+
+#main-footer .copyright{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-top: 1px solid rgb(59, 59, 59);
+}
 
